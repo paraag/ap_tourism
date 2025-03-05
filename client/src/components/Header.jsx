@@ -45,7 +45,7 @@ function Header() {
       name: 'Beaches', 
       icon: <Waves className="w-8 h-8 text-blue-500" />,
       image: beachImg,
-      description: 'Coastal wonders of Andhra Pradesh',
+      description: 'Coastal wonders of Andhra',
       items: placesData.Beaches
     },
     { 
