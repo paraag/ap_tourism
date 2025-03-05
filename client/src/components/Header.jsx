@@ -78,7 +78,7 @@ function Header() {
 
   const partnersData = [
     { name: 'Partners login '},
-    { name: 'Market Demand & Occupancy Metrics' },
+    { name: 'Market Demand & Occupancy Metrics',path: "/market-demand" },
     { name: 'Infrastructure & Accessibility' }
   ];
 
