@@ -75,6 +75,7 @@ function Header() {
       <div className="flex items-center gap-4">
         <img src={logo} alt="AP Tourism Logo" className="h-12" />
         <h1 className="text-3xl font-bold">AP Tourism</h1>
+        <p>Italian of the East</p>
       </div>
       <nav>
         <ul className="flex gap-6 relative items-center">
