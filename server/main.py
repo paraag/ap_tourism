@@ -60,6 +60,10 @@ def is_relevant(prompt: str) -> bool:
     prompt_lower = prompt.lower()
     return any(keyword in prompt_lower for keyword in TRAVEL_KEYWORDS)
 
+@app.get("/")
+async def read_root():
+    return {"message": "AI API is running"}
+
 @app.post("/plan-trip")
 async def plan_trip(request: PromptRequest):
     # Check if the query is related to travel
