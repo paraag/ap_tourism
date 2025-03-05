@@ -318,7 +318,7 @@ function Header() {
             </a>
             {offersOpen && (
               <div 
-                className="absolute left-0 mt-2 w-64 bg-white border rounded-lg shadow-xl overflow-hidden"
+                className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white border rounded-lg shadow-xl overflow-hidden"
                 onMouseEnter={() => setOffersOpen(true)}
                 onMouseLeave={() => {
                   setTimeout(() => {
