@@ -73,10 +73,16 @@ function Header() {
   return (
     <header className="absolute top-0 w-full flex justify-between items-center p-6 text-black bg-white bg-opacity-70 backdrop-blur-sm z-50">
       <div className="flex items-center gap-4">
-        <img src={logo} alt="AP Tourism Logo" className="h-12" />
-        <h1 className="text-3xl font-bold">AP Tourism</h1>
-        <p>Italian of the East</p>
+        <Link to="/" className="flex items-center gap-4 cursor-pointer"> {/* Wrap everything */}
+          <img src={logo} alt="AP Tourism Logo" className="h-12" />
+          <div className="flex flex-col">
+            <h1 className="text-3xl font-bold">AP Tourism</h1>
+            <p className="text-sm text-gray-600">Italian of the East</p> {/* Smaller & subtle */}
+          </div>
+        </Link>
       </div>
+
+
       <nav>
         <ul className="flex gap-6 relative items-center">
           {/* AI Trip Planner Dropdown */}
