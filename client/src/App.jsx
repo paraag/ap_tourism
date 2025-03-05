@@ -112,7 +112,7 @@ function App() {
             Explore Now
           </a>
           <a
-            href="#plan-trip"
+            href="/ai-trip-planner"
             className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-lg text-lg font-semibold 
             hover:bg-white hover:text-black transition transform hover:scale-105"
           >
