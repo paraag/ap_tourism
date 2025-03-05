@@ -9,15 +9,15 @@ function Footer() {
   ];
 
   return (
-    <footer className="w-full bg-black bg-opacity-80 text-white py-6 z-10">
+    <footer className="w-full mt-8 bg-white bg-opacity-80 text-black py-2 z-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         
         {/* Address & Contact Info */}
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-lg font-semibold">AP Tourism</h2>
-          <p className="flex items-center mt-1 text-gray-300"><MapPin className="mr-2" /> Amaravati, Andhra Pradesh, India</p>
-          <p className="flex items-center mt-1 text-gray-300"><Phone className="mr-2" /> +91 98765 43210</p>
-          <p className="flex items-center mt-1 text-gray-300"><Mail className="mr-2" /> contact@aptourism.com</p>
+          <p className="flex items-center mt-1 text-gray-600"><MapPin className="mr-2" /> Amaravati, Andhra Pradesh, India</p>
+          <p className="flex items-center mt-1 text-gray-600"><Phone className="mr-2" /> +91 98765 43210</p>
+          <p className="flex items-center mt-1 text-gray-00"><Mail className="mr-2" /> contact@aptourism.com</p>
         </div>
 
         {/* Social Media Links */}
